@@ -29,3 +29,29 @@ a:hover {
     padding: 10px;
     background-color: #f2f2f2;
 }
+
+.bottombar .left, .bottombar .right{
+    position: absolute;
+    bottom: 10;
+}
+
+.bottombar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+input {
+    width: 400;
+    height: 40;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0); 
+}
