@@ -1,13 +1,14 @@
+/* Aligns the things that should be on the left */
 .left {
     position: absolute;
     left: 0;
 }
-
+/* Aligns the things that should be on the right */
 .right {
     position: absolute;
     right: 0;
 }
-
+/* Sets font, opacity, etc. for links on the page */
 a {
     font-family: arial,sans-serif;
     opacity: 0.75;
@@ -16,40 +17,40 @@ a {
     text-decoration: none;
     color: black;
 }
-
+/* Sets the apps icon's opacity to 0.5 */
 a, img {
     opacity: 0.5;
 }
-
+/* Sets the apps icon's opacity to 1 when it is hovered over*/
 a, img:hover {
     text-decoration: none;
     opacity: 1;
 }
-
+/* Makes links underlined when hovered over */
 a:hover {
     text-decoration: underline;
 }
-
+/* Aligns things in the center */
 .center {
     text-align: center;
 }
-
+/* Sets appearance of buttons */
 .button {
     padding: 10px;
     background-color: #f2f2f2;
     border-radius: 3px;
 }
-
+/* Changes border color when buttons are hovered over */
 .button:hover {
     text-decoration: none;
     border: 1px solid rgb(148, 147, 147);
 }
-
+/* Aligns bottom bar */
 .bottombar .left, .bottombar .right{
     position: absolute;
     bottom: 10;
 }
-
+/* Aligns bottom bar */
 .bottombar {
     position: absolute;
     bottom: 0;
@@ -58,19 +59,19 @@ a:hover {
     padding: 20px;
     background-color: #f2f2f2;
 }
-
+/* Sets appearance of input bar */
 input {
     width: 400;
     height: 40;
     border-radius: 25px;
     border: 1px solid #dfe1e5;
 }
-
+/* Changes appearance of input bar when hovered over */
 input:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0); 
 }
-
+/* Sets appearance of signin button */
 #signin {
     color: white;
     background-color: #4285f4;
@@ -78,7 +79,11 @@ input:hover {
     border-radius: 3px;
     padding: 5px;
 }
-
+/* Signin button text is not underlined when hovered over */
 #signin:hover {
     text-decoration: none;
+}
+/* Sets the main google image opacity to 1 */
+.center, img {
+    opacity: 1;
 }
